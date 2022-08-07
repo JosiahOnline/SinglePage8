@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Trouble Cats</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="./troublecats.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="./images/icon/trouble cats 32x32.ico"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link
+      href="./images/icon/trouble cats 256x256.ico"
+      rel="apple-touch-icon"
+    />
+    <head>
+      <style>
+        /*width*/
+        #scrollbar::-webkit-scrollbar {
+          width: 5px;
+          height: 0px;
+        }
+
+        /* Small devices (portrait tablets and large phones, 700px and up) */
+        @media only screen and (max-width: 700px) {
+          #scrollbar::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+          }
+        }
+
+        /*track*/
+        #scrollbar::-webkit-scrollbar-track {
+          background: rgb(246, 246, 248);
+          border-radius: 25px;
+        }
+
+        /*thumb*/
+        #scrollbar::-webkit-scrollbar-thumb {
+          background: rgb(225, 225, 225);
+          border-radius: 25px;
+        }
+
+        #scrollbar::-webkit-scrollbar-thumb:hover {
+          background: #000;
+        }
+      </style>
+    </head>
+  </head>
+  <body class="body">
+    <div
+      data-collapse="medium"
+      data-animation="default"
+      data-duration="400"
+      data-easing="ease"
+      data-easing2="ease"
+      role="banner"
+      class="nav-bar nav-01"
+    >
+      <div class="topbar">
+        <a href="https://discord.com/invite/troublecats" class="brand">
+          <img
+            src="./images/Trouble Cats Top.png"
+            loading="lazy"
+            width="0"
+            height="0"
+            sizes="(max-width: 479px) 61vw, (max-width: 767px) 41vw, (max-width: 991px) 28vw, (max-width: 1279px) 25vw, 281.8999938964844px"
+            alt=""
+            class="image-logo"
+          />
+          <div class="text-block-1">
+            <span class="thin-span">Trouble Cats</span>
+          </div></a
+        >
+        <div class="topnav" id="myTopnav">
+          <div class="dropdown">
+            <button class="dropbtn">
+              ROADMAP
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#roadMap" class="scroll moveaway">ROADMAP V1</a>
+              <a href="https://twitter.com/TroubleCatsCNFT">ROADMAP V2</a>
+            </div>
+          </div>
+
+          <a href="#team" class="scroll moveaway">TEAM</a>
+          <a href="#faq" class="scroll moveaway">FAQ</a>
+          <a href="https://discord.com/invite/troublecats" class="discord"></a>
+          <a href="https://twitter.com/TroubleCatsCNFT" class="twitter"></a>
+          <a href="#buy" class="buy"></a>
+          <a
+            href="javascript:void(0);"
+            id="menuIcon"
+            class="icon"
+            onclick="myFunction()"
+          >
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="page-wrapper">
+      <div class="thebanner background-black">
+        <img
+          src="./images/Banner/Resize 1400x788.png"
+          loading="eager"
+          sizes="100vw"
+          alt=""
+          class="background-banner"
+        />
+      </div>
+      <div class="divider">
+        <br />
+        <br />‍
+      </div>
+      <div id="troublecatsrare" class="background-black">
+        <div class="raregif">
+          <div class="layout-grid grid-1 mobile">
+            <img
+              src="./images/rare.gif"
+              loading="lazy"
+              id="rarePictures"
+              alt="rare images"
+              class="rare-images"
+            />
+            <div id="troubleCast-intro">
+              <div class="overflow-hidden">
+                <h1 class="large-heading">TROUBLE CATS</h1>
+              </div>
+              <div class="overflow-hidden">
+                <div class="pgraph large herotext herodescription">
+                  Trouble Cats is taking over the Cat-dano Street. A collection
+                  of kick-ass NFTs on the Cardano Blockchain, and the ticket to
+                  double the trouble with perks and benefits.
+                </div>
+              </div>
+              <a
+                href="https://discord.com/invite/troublecats"
+                target="_blank"
+                class="button-inverted button-1"
+                >JOIN OUR DISCORD</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="background-black">
+        <br />
+        <br />‍
+      </div>
+      <div class="roadmap">
+        <div class="overflow-hidden background-black">
+          <h2 class="large-heading readytomint">OUR COLLECTIONS</h2>
+        </div>
+      </div>
+      <div class="background-black">
+        <div class="scrolling-video">
+          <div class="holder-block">
+            <div class="moving-block">
+              <div class="marquee-horizontal large-marquee">
+                <div class="marquee-horizontal-css embed">
+                  <style>
+                    .track-horizontal-1 {
+                      position: absolute;
+                      white-space: nowrap;
+                      will-change: transform;
+                      animation: marquee-horizontal 40s linear infinite;
+                      /* manipulate the speed of the marquee by changing "40s" line above*/
+                    }
+
+                    @keyframes marquee-horizontal {
+                      from {
+                        transform: translateX(0);
+                      }
+                      to {
+                        transform: translateX(-50%);
+                      }
+                    }
+                  </style>
+                </div>
+                <div class="track-horizontal-1">
+                  <div>
+                    <div role="list" class="collection-list">
+                      <div
+                        style="
+                          background-image: url('./images/10Pictures/TroubleCats1.png');
+                        "
+                        role="listitem"
+                        class="large-marquee"
+                      ></div>
+                      <div
+                        style="
+                          background-image: url('./images/10Pictures/TroubleCats2.png');
+                        "
+                        role="listitem"
+                        class="large-marquee"
+                      ></div>
+                      <div
+                        style="
+                          background-image: url('./images/10Pictures/TroubleCats3.png');
+                        "
+                        role="listitem"
+                        class="large-marquee"
+                      ></div>
+                      <div
+                        style="
+                          background-image: url('./images/10Pictures/TroubleCats4.png');
+                        "
+                        role="listitem"
+                        class="large-marquee"
+                      ></div>
+                      <div
+                        style="
+                          background-image: url('./images/10Pictures/TroubleCats5.png');
+                        "
+                        role="listitem"
+                        class="large-marquee"
+                      ></div>
+                      <div
+                        style="
+                          background-image: url('./images/10Pictures/TroubleCats6.png');
+                        "
+                        role="listitem"
+                        class="large-marquee"
+                      ></div>
+                      <div
+                        style="
+                          background-image: url('./images/10Pictures/TroubleCats7.png');
+                        "
+                        role="listitem"
+                        class="large-marquee"
+                      ></div>
+                      <div
+                        style="
+                          background-image: url('./images/10Pictures/TroubleCats8.png');
+                        "
+                        role="listitem"
+                        class="large-marquee"
+                      ></div>
+                      <div
+                        style="
+                          background-image: url('./images/10Pictures/TroubleCats9.png');
+                        "
+                        role="listitem"
+                        class="large-marquee"
+                      ></div>
+                      <div
+                        style="
+                          background-image: url('./images/10Pictures/TroubleCats10.png');
+                        "
+                        role="listitem"
+                        class="large-marquee"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="background-black">
+          <br />
+          <br />‍
+        </div>
+      </div>
+      <div class="background-black">
+        <br />
+        <br />‍
+      </div>
+      <div id="roadMap" class="roadmap">
+        <div class="overflow-hidden background-black">
+          <div class="padding-bottom">
+            <h2 class="large-heading readytomint">ROAD MAP</h2>
+          </div>
+        </div>
+        <div class="section-timeline">
+          <div class="container">
+            <div class="timeline_component">
+              <div class="timeline_progress-bar"></div>
+              <div class="timeline_progress"></div>
+              <div class="timeline_item">
+                <div
+                  id="timeline-1a"
+                  class="timeline_left"
+                >
+                  <div class="heading-wrapper">
+                    <h1 class="large-heading roadmaptext number">1.0</h1>
+                    <h1 class="large-heading roadmaptext">
+                      BIRTH OF TROUBLE CATS
+                    </h1>
+                  </div>
+                  <div class="timeline-content">
+                    <div class="pgraph large">
+                      Lore Development <br />Drawing of the TroubleCats
+                      Collection <br />Launch Twitter & Discord <br />Building
+                      an Organic Community <br />Plan Potential Collaborations
+                      <br />Develop Official Website<br />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="timeline-1b"
+                  class="timeline_centre"
+                >
+                  <div class="timeline_circle"></div>
+                </div>
+              </div>
+              <div class="timeline_item">
+                <div
+                  id="timeline-2hidden"
+                  class="empty-div"
+                ></div>
+                <div
+                  id="timeline-2b"
+                  class="timeline_centre"
+                >
+                  <div class="timeline_circle"></div>
+                </div>
+                <div class="timeline_right">
+                  <div class="heading-wrapper">
+                    <h1 class="large-heading roadmaptext number">2.0</h1>
+                    <h1 class="large-heading roadmaptext">
+                      LAUNCH OF TROUBLE CATS
+                    </h1>
+                  </div>
+                  <div class="timeline-content">
+                    <div class="pgraph large">
+                      Giveaways, Events, Competition <br />
+                      WL Allocation <br />
+                      Increase Marketing & Exposure <br />Release Cat-dano City
+                      Map<br />
+                      OG, WL & Public Mint<br />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline_item">
+                <div
+                  id="timeline-3a"
+                  class="timeline_left"
+                >
+                  <div class="heading-wrapper">
+                    <h1 class="large-heading roadmaptext number">3.0</h1>
+                    <h2 class="large-heading roadmaptext">
+                      COMMUNITY POWER NOW
+                    </h2>
+                  </div>
+                  <div class="timeline-content">
+                    <div class="pgraph large">
+                      <strong>(AFTER MINT)</strong><br />
+                      Rarity Chart <br />Certified Holders Role <br />Secondary
+                      Marketplace Listing <br />Purchase Metaverse Land
+                      <br />Airdrops Announce Official Partnerships
+                      <br />Donation to Real World Troubled Community<br />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="timeline-3b"
+                  class="timeline_centre"
+                >
+                  <div class="timeline_circle"></div>
+                </div>
+              </div>
+              <div class="timeline_item">
+                <div
+                  id="timeline-4hidden"
+                  class="empty-div"
+                ></div>
+                <div
+                  id="timeline-4b"
+                  class="timeline_centre"
+                >
+                  <div class="timeline_circle"></div>
+                </div>
+                <div class="timeline_right">
+                  <div class="heading-wrapper">
+                    <h1 class="large-heading roadmaptext number">4.0</h1>
+                    <h2 class="large-heading roadmaptext">CYBER CAT</h2>
+                  </div>
+                  <div class="timeline-content">
+                    <div class="pgraph large">
+                      Access to Movable 3D Avatar that allows holder to use for
+                      any virtual world.<br />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline_item">
+                <div
+                  id="timeline-5a"
+                  class="timeline_left"
+                >
+                  <div class="heading-wrapper">
+                    <h1 class="large-heading roadmaptext number">5.0</h1>
+                    <h1 class="large-heading roadmaptext">
+                      METAVERSE INTEGRATION
+                    </h1>
+                  </div>
+                  <div class="timeline-content">
+                    <div class="pgraph large">
+                      Development of characters to interact with the metaverse
+                      spaces. To be continued..<br />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="timeline-5b"
+                  class="timeline_centre"
+                >
+                  <div class="timeline_circle"></div>
+                </div>
+              </div>
+              <div class="overlay-fade-bottom"></div>
+              <div class="overlay-fade-top"></div>
+              <div class="timeline_progress"></div>
+              <div class="timeline_progress"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="team" class="our-team background-black">
+        <div class="container-1 container-2">
+          <div class="team-info">
+            <div class="padding-bottom">
+              <div class="header-center-box">
+                <div class="overflow-hidden">
+                  <h2 class="large-heading">WHO ARE WE?</h2>
+                </div>
+                <div class="padding-top">
+                  <p class="max-width-large header-center-box">
+                    <br />Founded by a Cardano Degen, and with the help of a few
+                    kind Cardano friends.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div role="list" class="team-list">
+                <div
+                  class="team-item"
+                >
+                  <div class="team-image-wrapper">
+                    <img
+                      src="./images/members/Meteora.png"
+                      loading="lazy"
+                      alt="team member Meteora"
+                      class="team-member-image"
+                    />
+                  </div>
+                  <div class="padding-top">
+                    <h3 class="roadmap-text">Meteora</h3>
+                  </div>
+                  <div class="paddinhg-vertical">
+                    <div>CEO cum slave</div>
+                    <div>Troublemaker</div>
+                  </div>
+                  <div class="social-links">
+                    <a
+                      href="https://twitter.com/NftMeteora"
+                      class="social-link inline-block"
+                      ><div class="icon-small embed">
+                        <svg
+                          aria-hidden="true"
+                          role="img"
+                          fill="currentColor"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <title>Twitter icon</title>
+                          <path
+                            d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                          />
+                        </svg></div
+                    ></a>
+                  </div>
+                </div>
+                <div
+                  class="team-item"
+                >
+                  <div class="team-image-wrapper">
+                    <img
+                      src="./images/members/Alexis.png"
+                      loading="lazy"
+                      alt=""
+                      class="team-member-image"
+                    />
+                  </div>
+                  <div class="padding-top">
+                    <h3 class="roadmap-text">Alexis</h3>
+                  </div>
+                  <div class="paddinhg-vertical">
+                    <div>Community Manager</div>
+                    <div>No Trouble</div>
+                  </div>
+                  <div class="social-links">
+                    <a
+                      href="https://twitter.com/alexis21140447"
+                      class="social-link inline-block"
+                      ><div class="icon-small embed">
+                        <svg
+                          aria-hidden="true"
+                          role="img"
+                          fill="currentColor"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <title>Twitter icon</title>
+                          <path
+                            d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                          />
+                        </svg></div
+                    ></a>
+                  </div>
+                </div>
+                <div
+                  class="team-item"
+                >
+                  <div class="team-image-wrapper">
+                    <img
+                      src="./images/members/Jiay.png"
+                      loading="lazy"
+                      alt=""
+                      class="team-member-image"
+                    />
+                  </div>
+                  <div class="padding-top">
+                    <h3 class="roadmap-text">Jiay</h3>
+                  </div>
+                  <div class="paddinhg-vertical">
+                    <div>Bloke of block chain</div>
+                    <div>Troubleshooter</div>
+                  </div>
+                  <div class="social-links">
+                    <a
+                      href="https://twitter.com/jiaylim"
+                      class="social-link inline-block"
+                      ><div class="icon-small embed">
+                        <svg
+                          aria-hidden="true"
+                          role="img"
+                          fill="currentColor"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <title>Twitter icon</title>
+                          <path
+                            d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                          />
+                        </svg></div
+                    ></a>
+                  </div>
+                </div>
+                <div
+                  class="team-item"
+                >
+                  <div class="team-image-wrapper">
+                    <img
+                      src="./images/members/Zboz.png"
+                      loading="lazy"
+                      alt=""
+                      class="team-member-image"
+                    />
+                  </div>
+                  <div class="padding-top">
+                    <h3 class="roadmap-text">Zboz</h3>
+                  </div>
+                  <div class="paddinhg-vertical">
+                    <div>Artist</div>
+                    <div>Imagine Trouble</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="faq faqmobile">
+        <div class="content-wrapper slim container-2">
+          <div class="header-center-box-01">
+            <div class="overflow-hidden">
+              <h2 id="faq" class="large-heading readytomint">
+                FREQUENTLY ASKED QUESTIONS
+              </h2>
+            </div>
+          </div>
+          <div class="accordion-wrapper">
+            <div class="accordion-item">
+              <div id="q1" class="accordion-item-trigger">
+                <h4 class="accordion-heading">
+                  <strong class="bold-text-2">What?</strong>
+                </h4>
+                <div class="icon accordion-icon">keyboard_arrow_down</div>
+              </div>
+              <div id="panel1" class="accordion-item-content hide-it">
+                <p class="paragraph">
+                  Trouble Cats is a collection of unique art NFTs minted on the
+                  Cardano blockchain. As a holder, you become a part of our
+                  project that focuses on the growth and development of its own
+                  members.<br />
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div id="q2" class="accordion-item-trigger">
+                <h4 class="accordion-heading">
+                  <strong class="bold-text-3">Why?</strong>
+                </h4>
+                <div class="icon accordion-icon">keyboard_arrow_down</div>
+              </div>
+              <div id="panel2" class="accordion-item-content hide-it">
+                <p class="paragraph">
+                  Our vision is to shamelessly bring fame to Cardano. Clear &
+                  Simple. We are here to stay.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div id="q3" class="accordion-item-trigger">
+                <h4 class="accordion-heading">
+                  <strong class="bold-text-4">When?</strong>
+                </h4>
+                <div class="icon accordion-icon">keyboard_arrow_down</div>
+              </div>
+              <div id="panel3" class="accordion-item-content hide-it">
+                <p class="paragraph add-padding">TBD</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div id="q4" class="accordion-item-trigger">
+                <h4 class="accordion-heading">
+                  <strong class="bold-text-4">How much?</strong>
+                </h4>
+                <div class="icon accordion-icon">keyboard_arrow_down</div>
+              </div>
+              <div id="panel4" class="accordion-item-content hide-it">
+                <p class="paragraph add-padding">TBD</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div id="q5" class="accordion-item-trigger">
+                <h4 class="accordion-heading">Rarity?<br /></h4>
+                <div class="icon accordion-icon">keyboard_arrow_down</div>
+              </div>
+              <div id="panel5" class="accordion-item-content hide-it">
+                <p class="paragraph">
+                  Yes. All our traits are hand drawn and special. There will be
+                  NFT rankings.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div id="q6" class="accordion-item-trigger">
+                <h4 class="accordion-heading">Why again?<br /></h4>
+                <div class="icon accordion-icon">keyboard_arrow_down</div>
+              </div>
+              <div id="panel6" class="accordion-item-content hide-it">
+                <p class="paragraph">
+                  Holders of Trouble Cats NFTs will enjoy the development of the
+                  project. Among others, movable 3D avatars on virtual world and
+                  metaverse.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div id="q7" class="accordion-item-trigger">
+                <h4 class="accordion-heading">Where?<br /></h4>
+                <div class="icon accordion-icon">keyboard_arrow_down</div>
+              </div>
+              <div id="panel7" class="accordion-item-content hide-it">
+                <p class="paragraph">Cardano Blockchain.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div id="q8" class="accordion-item-trigger">
+                <h4 class="accordion-heading">Whose?<br /></h4>
+                <div class="icon accordion-icon">keyboard_arrow_down</div>
+              </div>
+              <div id="panel8" class="accordion-item-content hide-it">
+                <p class="paragraph">
+                  You may use your TroubleCats NFT for any purpose, with full
+                  commercial rights given to every holder.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section1 footer">
+      <div class="wrapperteam">
+        <div class="footer-wrapper">
+          <a
+            id="footer-div"
+            href="https://discord.com/invite/troublecats"
+            class="brand inline-block"
+            ><div class="text-block">
+              JOIN <span class="thin-span">THE TROUBLE</span>
+            </div></a
+          >
+          <div
+            id="footer-link"
+            data-animation="default"
+            data-collapse="medium"
+            data-duration="400"
+            data-easing="ease"
+            data-easing2="ease"
+            role="banner"
+            class="navbar nav-01"
+          >
+            <div class="nav-bar-wrapper">
+              <div class="nav-menu-wrapper">
+                <nav role="navigation" class="nav-menu nav-menu-01">
+                  <a
+                    href="https://discord.com/invite/troublecats"
+                    target="_blank"
+                    class="nav-link discord nav-link-01"
+                  ></a
+                  ><a
+                    href="https://twitter.com/TroubleCatsCNFT"
+                    target="_blank"
+                    class="nav-link twitter nav-link-01"
+                  ></a
+                  ><a
+                    href="https://lnk.bio/loguitarist"
+                    target="_blank"
+                    class="nav-link musician nav-link-01"
+                  ></a>
+                </nav>
+                <div class="menu-button-2 nav-button-01">
+                  <div class="icon-nav-menu"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="music">
+      <img src="./images/MusicOff.png" alt=""music on" id="iconPlay">
+    </div>
+    <audio id="mySong" loop>
+      <source
+        src="./audio/Trouble Cats Background Music.wav"
+        type="audio/wav"
+      />
+    </audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      var mySong = document.getElementById("mySong");
+      var iconPlay = document.getElementById("iconPlay");
+      iconPlay.onclick = function () {
+        if (mySong.paused) {
+          mySong.play();
+          iconPlay.src = "./images/MusicOn.png";
+          iconPlay.style.transform = "scale(1.2)";
+        } else {
+          mySong.pause();
+          iconPlay.src = "./images/MusicOff.png";
+          iconPlay.style.transform = "scale(1)";
+        }
+      };
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#q1").click(function () {
+          $("#panel1").slideToggle("slow");
+        });
+        $("#q2").click(function () {
+          $("#panel2").slideToggle("slow");
+        });
+        $("#q3").click(function () {
+          $("#panel3").slideToggle("slow");
+        });
+        $("#q4").click(function () {
+          $("#panel4").slideToggle("slow");
+        });
+        $("#q5").click(function () {
+          $("#panel5").slideToggle("slow");
+        });
+        $("#q6").click(function () {
+          $("#panel6").slideToggle("slow");
+        });
+        $("#q7").click(function () {
+          $("#panel7").slideToggle("slow");
+        });
+        $("#q8").click(function () {
+          $("#panel8").slideToggle("slow");
+        });
+      });
+      var hashTagActive = "";
+      $(".scroll").on("click touchstart", function (event) {
+        if (hashTagActive != this.hash) {
+          //this will prevent if the user click several times the same link to freeze the scroll.
+          event.preventDefault();
+          //calculate destination place
+          var dest = 0;
+          if (
+            $(this.hash).offset().top >
+            $(document).height() - $(window).height()
+          ) {
+            dest = $(document).height() - $(window).height();
+          } else {
+            dest = $(this.hash).offset().top;
+          }
+          //go to destination
+          $("html,body").animate(
+            {
+              scrollTop: dest,
+            },
+            2500,
+            "swing"
+          );
+          hashTagActive = this.hash;
+        }
+      });
+
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+
+      $(".moveaway").on("click touchstart", function (event) {
+        $(this).closest(".topnav").removeClass("responsive");
+
+        var y = document.getElementById("menuIcon");
+        if (y.className === "icon minimize") {
+          y.className = "icon";
+        }
+      });
+      document.addEventListener("keydown", function (event) {
+        if (event.ctrlKey) {
+          event.preventDefault();
+        }
+      });
+      document.addEventListener("contextmenu", (event) =>
+        event.preventDefault()
+      );
+      document.body.addEventListener("click", function (evt) {
+        console.dir(this);
+        var x = document.getElementById("myTopnav");
+        var y = document.getElementById("menuIcon");
+        //note evt.target can be a nested element, not the body element, resulting in misfires
+        console.log(evt.target);
+        if (x.className === "topnav responsive" && y.className === "icon") {
+          y.className += " minimize";
+          console.log(y.className);
+          // y.classList.add("menuIcon");
+          // x.className = "topnav";
+          console.log(x.className);
+        } else if (y.className === "icon minimize") {
+          x.className = "topnav";
+          y.className = "icon";
+        }
+        // else if (x.className === "topnav" && y.className ==="icon minimize") {
+        //   y.className = "icon";
+        // }
+      });
+    </script>
+  </body>
+</html>
